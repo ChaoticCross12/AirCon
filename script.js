@@ -2,15 +2,15 @@ var z = new XMLHttpRequest();
 function info() {
     document.getElementById("data1").innerHTML = "locating . . .";
     document.getElementById("data3").innerHTML = " ";	
+	z.open("GET", "http://api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
+	z.send();
 z.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var myObj = JSON.parse(this.responseText);
-    document.getElementById("data1").innerHTML = myObj.data.city +", "+ myObj.data.country+". ";
-    document.getElementById("data3").innerHTML = myObj.data.current.pollution.aqius;
+    var leObj = JSON.parse(this.responseText);
+    document.getElementById("data1").innerHTML = leObj.data.city +", "+ leObj.data.country+". ";
+    document.getElementById("data3").innerHTML = leObj.data.current.pollution.aqius;
   }
 };
-z.open("GET", "http://api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
-z.send();
 }
 
 /*	
