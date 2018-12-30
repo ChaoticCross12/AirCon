@@ -23,14 +23,9 @@
 					
 <script>
 var y = new XMLHttpRequest();
-
 function info() {
-
     document.getElementById("data1").innerHTML = "locating . . .";
-
-	    document.getElementById("data3").innerHTML = " ";
-
-	  
+    document.getElementById("data3").innerHTML = " ";	  
 y.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
     var myObj = JSON.parse(this.responseText);
@@ -77,6 +72,8 @@ z.send();
  -->    		 	 		 	 		
     				
       </div>
+  			
+  			
   			
   	  <div class="footer" align="center">
   	    <p></p>
