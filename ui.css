@@ -1,6 +1,6 @@
 @charset "ISO-8859-1";
 
-@media screen and (max-width: 20px) {
+@media screen and (max-width: 400px) {
  .buttonx:hover {
   background-color: #800080;
   color: white;
