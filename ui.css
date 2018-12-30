@@ -206,20 +206,6 @@ div.footer {
   margin-bottom: 20px; 
 }
 
-div.footer2 {
-  align:center;
-  padding: 20px;
-  border-radius:  15px 15px 15px 15px;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  text-shadow: 0 0 0px #000000;
-  opacity: 1;
-  filter: alpha(opacity=90);
-  margin-bottom: 20px; 
-  margin-top: 0px;
-}
-
 div.ppanel {
   border-radius: 15px 15px 15px 15px;
   width: 70%;
