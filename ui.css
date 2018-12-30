@@ -157,8 +157,6 @@ h1 {
   margin-left: ;
   margin-right: ;
   font-weight:bold;
-   font-size:5vw;
-
 }
 
 div.panel {
@@ -181,6 +179,8 @@ div.header {
   color: white;
   text-shadow: 0 0 10px #000000;
   opacity: .8;
+    font-size:2vw;
+
   filter: alpha(opacity=30); 
 }
 
