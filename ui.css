@@ -1,26 +1,5 @@
 @charset "ISO-8859-1";
 
-@media screen and (max-width: 200px) {
- .buttonx:hover {
-  background-color: #800080;
-  color: white;
-} 
- div.ppanel {
-  border-radius: 15px 15px 15px 15px;
-  width: 95%;
-  margin:0 auto;
-  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  align:center;
-}
- div.panel {
-  border-radius: 15px 15px 15px 15px;
-  width: 95%;
-  text-align: left;
-  margin:0 auto;
-  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  align:center;
-}
-}
 
 #ttag {
   align: center;
