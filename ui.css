@@ -1,6 +1,6 @@
 @charset "ISO-8859-1";
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
  .buttonx:hover {
   background-color: #800080;
   color: white;
@@ -157,6 +157,8 @@ h1 {
   margin-left: ;
   margin-right: ;
   font-weight:bold;
+   font-size:2vw;
+
 }
 
 div.panel {
@@ -178,7 +180,6 @@ div.header {
   background-color: #008080;
   color: white;
   text-shadow: 0 0 10px #000000;
-  font-size:2vw;
   opacity: .8;
   filter: alpha(opacity=30); 
 }
