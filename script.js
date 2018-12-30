@@ -1,5 +1,5 @@
-var y = new XMLHttpRequest();
 function info() {
+    var y = new XMLHttpRequest();
     document.getElementById("data1").innerHTML = "locating . . .";
     document.getElementById("data3").innerHTML = " ";	  
 y.onreadystatechange = function() {
@@ -20,3 +20,24 @@ z.onreadystatechange = function() {
 z.open("GET", "http://api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
 z.send();
 }
+
+/*	
+var x = document.getElementById("buttonid");
+  function gpsX() {
+	if (navigator.geolocation) {
+   	  navigator.geolocation.getCurrentPosition(locationX, errorX);
+  	  } else { 
+   	  x.innerHTML = "UNABLE TO DETECT LOCATION";
+  	  }
+	}
+  function locationX(position) {
+  	x.innerHTML = "LOCATION: " + position.coords.latitude + " . " + position.coords.longitude;
+  }
+  function errorX(error) {
+ 	switch(error.code) {
+   	  case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "ERROR"
+   	  break;
+    }
+  }  		
+*/
