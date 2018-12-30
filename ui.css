@@ -1,14 +1,25 @@
 @charset "ISO-8859-1";
 
-@font-face {
-  font-family: 'product';
-  src:  url('product.ttf') format('woff');
-}
 @media screen and (max-width: 600px) {
  .buttonx:hover {
   background-color: #800080;
   color: white;
 } 
+ div.ppanel {
+  border-radius: 15px 15px 15px 15px;
+  width: 95%;
+  margin:0 auto;
+  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align:center;
+}
+ div.panel {
+  border-radius: 15px 15px 15px 15px;
+  width: 95%;
+  text-align: left;
+  margin:0 auto;
+  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align:center;
+}
 }
 
 #ttag {
@@ -17,9 +28,8 @@
   width: 70%;
   padding: 8px;
   text-align: center;
-margin-left: auto;
-margin-right: auto;
-
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 2px 15px 15px 15px;
 }
 
@@ -27,8 +37,6 @@ margin-right: auto;
   border: 3px solid #008080;
   padding: 0px;
 }
-
-#ttag tr:nth-child{background-color: #f2f2f2;}
 
 #ttag th {
   border: 3px solid #005555;
@@ -40,63 +48,49 @@ margin-right: auto;
   background-color: #008080;
   color: white;
 }
+
 div.tablepadding {
 background-color: #ffffff;
 padding: 8px;
 color: #000000;
 }
+
 div.good {
 background-color: #00a800;
 padding: 8px;
 color: white;
 }
+
 div.moderate {
 background-color: #dddd00;
 color: white;
 padding: 8px;
-
 }
+
 div.unhealthyx {
 background-color: #ff8000;
 color: white;
 padding: 8px;
-
 }
+
 div.unhealthy {
 background-color: #ff0000;
 color: white;
 padding: 8px;
-
 }
+
 div.veryunhealthy {
 background-color: #b700b7;
 color: white;
 padding: 8px;
-
 }
+
 div.hazardous {
 background-color: #8a008a;
 color: white;
 padding: 8px;
-
 }
 
-.load {
-  border: 4px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 4px solid #3498db;
-  width: 20px;
-  height: 20px;
-  -webkit-animation: spin 2s  ;
-  animation: spin 2s linear infinite;
-  text-align: center;
-  align: center;
-  padding: 1%;
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 .o {
   text-align: center;
   padding-top: 0px;
@@ -119,6 +113,7 @@ padding: 8px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
 .buttonx {
   background-color: white; 
   color: black; 
@@ -132,7 +127,6 @@ padding: 8px;
 
 body {
   font-family: "Courier New", Courier, monospace;
- 
   background-image: url("bgimg.jpg");
   height: 10%;
   background-size: auto;
@@ -156,8 +150,8 @@ div.texth {
   font-size: 25px;
    text-align: center;
    font-weight: bold;
-
 }
+
 h1 {
   color: #ececff;
   margin-left: ;
@@ -168,10 +162,10 @@ h1 {
 div.panel {
   border-radius: 15px 15px 15px 15px;
   width: 70%;
-  box-shadow: 0 4px 28px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
   margin:0 auto;
-  margin-top: 0px;
-  margin-bottom: 15px; 
+  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align:center;
 }
 
 div.header {
@@ -189,7 +183,6 @@ div.header {
 }
 
 div.container {
-
   padding-left: 	30px;
   padding-right: 	30px;
   padding-top: 20px;
@@ -200,6 +193,7 @@ div.container {
   opacity: 0.8;
   filter: alpha(opacity=30); 
 }
+
 div.footer {
   padding: 15px;
   border-radius:  0px 0px 15px 15px;
@@ -211,31 +205,10 @@ div.footer {
   filter: alpha(opacity=90); 
   margin-bottom: 20px; 
 }
-div.panel2 {
-  border-radius: 15px 15px 15px 15px;
-  width: 70%;
-  text-align: left;
-  margin:0 auto;
-  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  align:center;
-}
-div.footer2 {
-  padding: 20px;
-  border-radius:  15px 15px 15px 15px;
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  text-shadow: 0 0 6px #000000;
-  opacity: 0.5;
-  filter: alpha(opacity=90);
-  margin-bottom: 20px; 
-  margin-top: 0px;
-}
-div.footer3 {
-	  align:center;
-	  padding: 20px;
-	
 
+div.footer2 {
+  align:center;
+  padding: 20px;
   border-radius:  15px 15px 15px 15px;
   background-color: #000000;
   color: #ffffff;
@@ -246,6 +219,7 @@ div.footer3 {
   margin-bottom: 20px; 
   margin-top: 0px;
 }
+
 div.ppanel {
   border-radius: 15px 15px 15px 15px;
   width: 70%;
@@ -253,6 +227,7 @@ div.ppanel {
   box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   align:center;
 }
+
 div.pfooter {
   padding: 30px;
   border-radius:  15px 15px 15px 15px;
@@ -263,5 +238,4 @@ div.pfooter {
   filter: alpha(opacity=90);
   margin-bottom: 20px; 
   margin-top: 0px;
-
 }
