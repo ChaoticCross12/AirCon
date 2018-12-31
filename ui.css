@@ -11,12 +11,14 @@
   margin-right: auto;
   border-radius: 15px 15px 15px 15px;
   max-width: 540px;
-  max-height: 10px;
+    max-height: 10px;
+  
 }
 
 #ttag td {
   border: 3px solid #008080;
-  padding: 0px; 
+  padding: 0px;
+  
 }
 
 #ttag th {
@@ -162,6 +164,20 @@ div.ppanel {
   max-width: 800px;
 }
 
+div.title {
+  width: 100%;
+  max-width: 800px;
+  max-height: 80px;  
+  font-size:320%;
+  padding-left: 	0px;
+  padding-right: 	0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 0px;
+  text-align: center;
+  font-weight:bold;
+  color: white;
+}
 div.header {
   padding: 5px;
   margin-top: 50px;
@@ -213,6 +229,8 @@ div.footer {
   filter: alpha(opacity=90); 
   margin-bottom: 20px; 
 }
+
+
 
 div.pfooter {
   padding: 30px;
