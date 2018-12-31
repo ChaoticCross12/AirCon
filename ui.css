@@ -1,32 +1,22 @@
 @charset "ISO-8859-1";
 
-@media screen and (max-width: 479px) {
- .buttonx:hover {
-  background-color: #800080;
-  color: white;
-} 
- div.ppanel {
-  width: 98%;
-}
- div.panel {
-  width: 98%;
-}
-}
 
 #ttag {
   align: center;
   border-collapse: collapse;
-  width: 70%;
+  width: 100%;
   padding: 8px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   border-radius: 2px 15px 15px 15px;
+  max-width: 540px;
 }
 
 #ttag td {
   border: 3px solid #008080;
   padding: 0px;
+  
 }
 
 #ttag th {
@@ -62,6 +52,7 @@ div.unhealthyx {
 background-color: #ff8000;
 color: white;
 padding: 8px;
+
 }
 
 div.unhealthy {
@@ -96,7 +87,7 @@ padding: 8px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 26px;
+  font-size:2vw;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 15px 15px 15px 15px;
@@ -108,7 +99,7 @@ padding: 8px;
 .buttonx {
   background-color: white; 
   color: black; 
-  border: 2px solid white;
+  border: 2px solid white;  
 }
 
 .buttonx:hover {
@@ -152,12 +143,27 @@ h1 {
 
 div.panel {
   border-radius: 15px 15px 15px 15px;
-  width: 70%;
+  width: 98%;
   text-align: left;
   margin:0 auto;
   box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   align:center;
+  max-width: 800px;
 }
+
+div.ppanel {
+  border-radius: 15px 15px 15px 15px;
+  width: 98%;
+  margin:0 auto;
+  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  align:center;
+  max-width: 800px;
+   width: 98%;
+ 
+
+}
+
+
 
 div.header {
   padding: 5px;
@@ -169,7 +175,7 @@ div.header {
   color: white;
   text-shadow: 0 0 10px #000000;
   opacity: .8;
-    font-size:30px;
+    font-size:2vw;
 
   filter: alpha(opacity=30); 
 }
@@ -207,16 +213,6 @@ div.footer {
   text-align: center;
   filter: alpha(opacity=90); 
   margin-bottom: 20px; 
-}
-
-div.ppanel {
-  border-radius: 15px 15px 15px 15px;
-  width: 70%;
-  margin:0 auto;
-  box-shadow: 0px 4px 28px 0 rgba(5, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  align:center;
- 
-
 }
 
 div.pfooter {
