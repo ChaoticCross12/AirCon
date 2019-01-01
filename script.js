@@ -2,7 +2,7 @@ var z = new XMLHttpRequest();
 function info() {
     document.getElementById("data1").innerHTML = "locating . . .";
     document.getElementById("data3").innerHTML = " ";
-	z.open("GET", "http://api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
+	z.open("GET", "//api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
 	z.send();
 z.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
