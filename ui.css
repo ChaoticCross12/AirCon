@@ -236,3 +236,10 @@ div.pfooter {
   margin-bottom: 20px;
   margin-top: 0px;
 }
+
+@media screen and (max-width: 600px) {
+
+  div.title {
+    font-size: 33px;
+  }
+}
