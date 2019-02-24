@@ -18,6 +18,7 @@
   padding: 0px;
 }
 
+
 #ttag th {
   border: 3px solid #005555;
   padding-top: 8px;
@@ -236,6 +237,28 @@ div.pfooter {
   margin-bottom: 20px;
   margin-top: 0px;
 }
+
+.applink {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: underline;
+}
+
+a:hover, a:active {
+  text-decoration: bold;
+  color: teal;
+}
+
 
 @media screen and (max-width: 600px) {
 
