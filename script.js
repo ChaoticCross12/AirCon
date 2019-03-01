@@ -10,6 +10,7 @@ z.onreadystatechange = function() {
     //document.getElementById("data3").innerHTML = leObj.data.current.pollution.aqius;
     k = leObj.data.current.pollution.aqius;
 
+
   if(k < 50) {
       document.getElementById("a1").innerHTML = k;
   } else if (k < 100) {
