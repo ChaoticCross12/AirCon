@@ -96,8 +96,7 @@ padding: 8px;
   cursor: pointer;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 20px 4px 28px 0 rgba(5, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
-  transition-duration: 0.4s;
-  cursor: pointer;
+  transition-duration: 0.1s;
 }
 
 .buttonx {
@@ -190,7 +189,6 @@ div.header {
   color: white;
   text-shadow: 0 0 10px #000000;
   opacity: .8;
-  filter: alpha(opacity=30);
 }
 
 div.container {
@@ -202,7 +200,6 @@ div.container {
   color: #ffffff;
   text-shadow: 0 0 6px #000000;
   opacity: 0.8;
-  filter: alpha(opacity=30);
 }
 
 div.tcontainer {
@@ -214,7 +211,6 @@ div.tcontainer {
   background-color: #000000;
   color: #ffffff;
   opacity: 1;
-  filter: alpha(opacity=90);
   margin-bottom: 20px;
   margin-top: 0px;
 }
@@ -227,7 +223,6 @@ div.footer {
   text-shadow: 0 0 6px #000000;
   opacity: 0.5;
   text-align: center;
-  filter: alpha(opacity=90);
   margin-bottom: 20px;
 }
 
@@ -238,7 +233,6 @@ div.pfooter {
   color: #ffffff;
   text-shadow: 0 0 6px #000000;
   opacity: 1;
-  filter: alpha(opacity=90);
   margin-bottom: 20px;
   margin-top: 0px;
 }

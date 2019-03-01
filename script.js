@@ -1,15 +1,16 @@
 var z = new XMLHttpRequest();
 function info() {
-    document.getElementById("l1").innerHTML = "locating . . .";
+  document.getElementById("l1").innerHTML = "locating . . .";
 	z.open("GET", "//api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
 	z.send();
-z.onreadystatechange = function() {
+  z.onreadystatechange = function() {
   if (this.readyState == 4 && this.status == 200) {
-    var leObj = JSON.parse(this.responseText);
-    document.getElementById("l1").innerHTML = leObj.data.city +", "+ leObj.data.country+". ";
-    //document.getElementById("data3").innerHTML = leObj.data.current.pollution.aqius;
-    k = leObj.data.current.pollution.aqius;
+      var leObj = JSON.parse(this.responseText);
+      k = leObj.data.current.pollution.aqius;
+      city = leObj.data.city
+      country = leObj.data.country
 
+      document.getElementById("l1").innerHTML = city +", "+ country +". ";
 
   if(k < 50) {
       document.getElementById("a1").innerHTML = k;
@@ -38,10 +39,6 @@ z.onreadystatechange = function() {
   } else {
       document.getElementById("b6").innerHTML = "Hazardous";
   }
-      // code block
-
-  //  document.getElementById("data3").innerHTML = k;
-
   }
-};
+  };
 }
