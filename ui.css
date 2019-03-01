@@ -74,8 +74,13 @@ padding: 8px;
 
 .o {
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.oo {
+  text-align: center;
   padding-top: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 7px;
 }
 
 .button {
