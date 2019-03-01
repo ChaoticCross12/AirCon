@@ -261,5 +261,37 @@ a:hover, a:active {
   .title {
     font-size: 33px;
   }
-  
+  .tcontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  table {
+    border: 6px solid #000000;
+  }
+  td {
+    border: 1px solid #000000;
+    padding: 0px;
+    height: auto;
+  }
+  th {
+    border: 1px solid #005555;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    border-color: #000000;
+    text-align: left;
+    background-color: #000000;
+    color: white;
+    height: 10px;
+
+  }
+  .applink {
+    color: white;
+    text-align: center;
+    margin: auto;
+    visibility: hidden;
+    height: 0px
+  }
 }
