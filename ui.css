@@ -17,8 +17,8 @@ table {
 td {
   border: 1px solid #008080;
   padding: 0px;
-}
 
+}
 
 th {
   border: 1px solid #005555;
@@ -31,11 +31,9 @@ th {
   color: white;
 }
 
-
-
 .tablepadding {
 background-color: #ffffff;
-padding: 8px 3px;
+padding: 8px 2px;
 color: #000000;
 }
 
@@ -83,6 +81,7 @@ padding: 8px 3px;
   padding-top: 10px;
   padding-bottom: 7px;
 }
+
 .oo {
   text-align: center;
   padding-top: 0px;
@@ -103,17 +102,19 @@ padding: 8px 3px;
   border-radius: 15px 15px 15px 15px;
   box-shadow: 20px 4px 28px 0 rgba(5, 0, 0, 2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
   transition-duration: 0.1s;
+  border: 2px solid #0073e6;
 }
 
 .buttonx {
   background-color: white;
   color: black;
-  border: 2px solid white;
+  border: 2px solid #008080;
 }
 
 .buttonx:hover {
   background-color: #0073e6;
   color: white;
+  border: 2px solid #0073e6;
 }
 
 body {
@@ -134,8 +135,8 @@ p {
   color: #ffffff;
   font-size: 18px;
   text-align: justify;
-
 }
+
 .texth {
   color: #ffffff;
   font-size: 25px;
@@ -254,7 +255,6 @@ a:link {
 }
 
 a:hover, a:active {
-  text-decoration: bold;
   color: teal;
   font-size: 18px;
 }
@@ -265,19 +265,23 @@ a:hover, a:active {
   .title {
     font-size: 33px;
   }
+
   .tcontainer {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
   }
+
   table {
     border: 6px solid #000000;
   }
+
   td {
     border: 1px solid #000000;
     padding: 0px;
   }
+
   th {
     border: 1px solid #005555;
     padding-top: 8px;
@@ -287,8 +291,9 @@ a:hover, a:active {
     background-color: #000000;
     color: white;
     height: 10px;
-
+    padding-left: 0px;
   }
+
   .applink {
     color: white;
     text-align: center;
@@ -300,6 +305,7 @@ a:hover, a:active {
   .pfooter {
     padding: 30px 15px;
   }
+
   .texth {
     font-size: 20px;
   }
