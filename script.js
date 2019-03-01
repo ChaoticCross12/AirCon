@@ -1,6 +1,8 @@
 var z = new XMLHttpRequest();
+
 function info() {
   document.getElementById("l1").innerHTML = "locating . . .";
+
 	z.open("GET", "//api.airvisual.com/v2/nearest_city?key=pWJrvDbBDbhoQjqhj", true);
 	z.send();
   z.onreadystatechange = function() {
@@ -11,6 +13,8 @@ function info() {
       country = leObj.data.country
 
       document.getElementById("l1").innerHTML = city +", "+ country +". ";
+
+
 
   if(k < 50) {
       document.getElementById("a1").innerHTML = k;

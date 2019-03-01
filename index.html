@@ -7,6 +7,8 @@
   	<link rel="icon" type="image/gif/png" href="icon.png">
   	<title> AirCon </title>
 	<script src="script.js"></script>
+  <script src="textscript.js"></script>
+
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
@@ -61,7 +63,7 @@
         <tr>
           <th>AQI Category</th>
           <th>Index Values</th>
-          <th>Breakpoints<br>(24-hour avg.)</th>
+          <th>Breakpoints<br><span  style="font-size:11px">(24-hour avg.)</span></th>
         </tr>
         <tr>
     	  <td><div class="good">Good</div></td>
@@ -110,15 +112,8 @@
       <div class="pfooter">
   	    <div class="texth">Why does AQI matter:</div>
         <br>
-        <div class="text">
-           The Air Quality Index (AQI) is used for reporting daily air quality. It tells you how clean or
-polluted your air is, and what associated health effects might be a concern for you. The AQI
-focuses on health effects you may experience within a few hours or days after breathing
-polluted air. EPA calculates the AQI for five major air pollutants regulated by the Clean Air Act:
-ground-level ozone, particle pollution (also known as particulate matter), carbon monoxide,
-sulfur dioxide, and nitrogen dioxide. For each of these pollutants, EPA has established national
-air quality standards to protect public health .Ground-level ozone and airborne particles are the
-two pollutants that pose the greatest threat to human health in this country.
+        <div class="text"> <span id="why"> </span>
+
 	 	    </div>
  		  </div>
  	  </div>
@@ -127,37 +122,7 @@ two pollutants that pose the greatest threat to human health in this country.
       <div class="pfooter">
   	    <div class="texth">How is air polluted:</div>
         <br>
-        <div class="text">
-1. Burning of Fossil Fuels: Sulfur dioxide emitted from the combustion of fossil fuels like coal,
-petroleum and other factory combustibles is one the major cause of air pollution. Pollution
-emitting from vehicles including trucks, jeeps, cars, trains, airplanes cause immense amount of
-pollution. We rely on them to fulfill our daily basic needs of transportation. But, there overuse
-is killing our environment as dangerous gases are polluting the environment. Carbon
-Monooxide caused by improper or incomplete combustion and generally emitted from vehicles
-is another major pollutant along with Nitrogen Oxides, that is produced from both natural and
-man made processes.
-<br> <br>
-2. Agricultural activities: Ammonia is a very common by product from agriculture related
-activities and is one of the most hazardous gases in the atmosphere. Use of insecticides,
-pesticides and fertilizers in agricultural activities has grown quite a lot. They emit harmful
-chemicals into the air and can also cause water pollution.
-<br> <br>
-3. Exhaust from factories and industries: Manufacturing industries release large amount of
-carbon monoxide, hydrocarbons, organic compounds, and chemicals into the air thereby
-depleting the quality of air. Manufacturing industries can be found at every corner of the earth
-and there is no area that has not been affected by it. Petroleum refineries also release
-hydrocarbons and various other chemicals that pollute the air and also cause land pollution.
-<br> <br>
-4. Mining operations: Mining is a process wherein minerals below the earth are extracted using
-large equipments. During the process dust and chemicals are released in the air causing
-massive air pollution. This is one of the reason which is responsible for the deteriorating health
-conditions of workers and nearby residents.
-<br> <br>
-5. Indoor air pollution: Household cleaning products, painting supplies emit toxic chemicals in
-the air and cause air pollution. Have you ever noticed that once you paint walls of your house, it
-creates some sort of smell which makes it literally impossible for you to breathe.
-Suspended particulate matter popular by its acronym SPM, is another cause of pollution.
-Referring to the particles afloat in the air, SPM is usually caused by dust, combustion etc.
+        <div class="text" id="how">
 	 	     </div>
  		   </div>
  	     </div>
@@ -166,56 +131,8 @@ Referring to the particles afloat in the air, SPM is usually caused by dust, com
   		   <div class="pfooter">
   		     <div class="texth">Effects of Air Pollution</div>
              <br>
-             <div class="text">
-1. Respiratory and heart problems: The effects of Air pollution are alarming. They are known to
-create several respiratory and heart conditions along with Cancer, among other threats to the
-body. Several millions are known to have died due to direct or indirect effects of Air pollution.
-Children in areas exposed to air pollutants are said to commonly suffer from pneumonia and
-asthma.
-<br> <br>
-2. Global warming: Another direct effect is the immediate alterations that the world is
-witnessing due to Global warming. With increased temperatures world wide, increase in sea
-levels and melting of ice from colder regions and icebergs, displacement and loss of habitat
-have already signaled an impending disaster if actions for preservation and normalization aren’t
-undertaken soon.
-<br> <br>
-3. Acid Rain: Harmful gases like nitrogen oxides and sulfur oxides are released into the
-atmosphere during the burning of fossil fuels. When it rains, the water droplets combines with
-these air pollutants, becomes acidic and then falls on the ground in the form of acid rain. Acid
-rain can cause great damage to human, animals and crops.
-<br> <br>
-4. Eutrophication: Eutrophication is a condition where high amount of nitrogen present in some
-pollutants gets developed on sea’s surface and turns itself into algae and and adversely affect
-fish, plants and animal species. The green colored algae that is present on lakes and ponds is
-due to presence of this chemical only.
-<br> <br>
-5. Effect on Wildlife: Just like humans, animals also face some devastating affects of air
-pollution. Toxic chemicals present in the air can force wildlife species to move to new place and
-change their habitat. The toxic pollutants deposit over the surface of the water and can also
-affect sea animals.
-<br> <br>
-6. Depletion of Ozone layer: Ozone exists in earth’s stratosphere and is responsible for
-protecting humans from harmful ultraviolet (UV) rays. Earth’s ozone layer is depleting due to
-the presence of chlorofluorocarbons, hydro chlorofluorocarbons in the atmosphere. As ozone
-layer will go thin, it will emit harmful rays back on earth and can cause skin and eye related
-problems. UV rays also have the capability to affect crops.
-<br> <br>
-When you try to study the sources of Air pollution, you enlist a series of activities and
-interactions that create these pollutants. There are two types of sources that we will take a look
-at: Natural sources and Man-made sources.
-<br> <br>
-Natural sources of pollution include dust carried by the wind from locations with very little or
-no green cover, gases released from the body processes of living beings (Carbon dioxide from
-humans during respiration, Methane from cattle during digestion, Oxygen from plants during
-Photosynthesis). Smoke from the combustion of various inflammable objects, volcanic
-eruptions etc along with the emission of polluted gases also make it to the list of Natural
-sources of Pollution.
-<br> <br>
-While looking at the man-made contributions towards air pollution, smoke again features as a
-prominent component. The smoke emitted from various forms of combustion like in bio mass,
-factories, vehicles, furnaces etc. Waste used to create landfills generate methane, that is
-harmful in several ways. The reactions of certain gases and chemicals also form harmful fumes
-that can be dangerous to the well being of living creatures.
+             <div class="text" id="effects">
+
 	 	     </div>
  		   </div>
  	     </div>
@@ -224,35 +141,8 @@ that can be dangerous to the well being of living creatures.
   		   <div class="pfooter">
   		     <div class="texth">Solution to Air Pollution</div>
              <br>
-             <div class="text">
-1. Use public mode of transportation: Encourage people to use more and more public modes of
-transportation to reduce pollution. Also, try to make use of car pooling. If you and your
-colleagues come from the same locality and have same timings you can explore this option to
-save energy and money.
-<br> <br>
-2. Conserve energy: Switch off fans and lights when you are going out. Large amount of fossil
-fuels are burnt to produce electricity. You can save the environment from degradation by
-reducing the amount of fossil fuels to be burned.
-<br> <br>
-3. Understand the concept of Reduce, Reuse and Recycle: Do not throw away items that are of
-no use to you. In-fact reuse them for some other purpose. For e.g. you can use old jars to store
-cereals or pulses.
-<br> <br>
-4. Emphasis on clean energy resources: Clean energy technologies like solar, wind and
-geothermal are on high these days. Governments of various countries have been providing
-grants to consumers who are interested in installing solar panels for their home. This will go a
-long way to curb air pollution.
-<br> <br>
-5. Use energy efficient devices: CFL lights consume less electricity as against their counterparts.
-They live longer, consume less electricity, lower electricity bills and also help you to reduce
-pollution by consuming less energy.
-<br> <br>
-Several attempts are being made world wide on a personal, industrial and governmental levels
-to curb the intensity at which Air Pollution is rising and regain a balance as far as the
-proportions of the foundation gases are concerned. This is a direct attempt at slacking Global
-warming. We are seeing a series of innovations and experiments aimed at alternate and
-unconventional options to reduce pollutants. Air Pollution is one of the larger mirrors of man’s
-follies, and a challenge we need to overcome to see a tomorrow.
+             <div class="text" id="solution">
+
 	 	     </div>
  		   </div>
  	     </div>

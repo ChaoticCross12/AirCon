@@ -1,26 +1,26 @@
 @charset "ISO-8859-1";
 
-#ttag {
+table {
   align: center;
-  border-collapse: collapse;
   width: 100%;
-  padding: 8px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px 15px 15px 15px;
   max-width: 570px;
   max-height: 10px;
+  border: 6px solid #008080;
+  border-radius: 9px;
+  border-spacing: 0px;
 }
 
-#ttag td {
-  border: 3px solid #008080;
+td {
+  border: 1px solid #008080;
   padding: 0px;
 }
 
 
-#ttag th {
-  border: 3px solid #005555;
+th {
+  border: 1px solid #005555;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 20px;
@@ -30,43 +30,45 @@
   color: white;
 }
 
-div.tablepadding {
+
+
+.tablepadding {
 background-color: #ffffff;
 padding: 8px;
 color: #000000;
 }
 
-div.good {
+.good {
 background-color: #00a800;
 padding: 8px;
 color: white;
 }
 
-div.moderate {
+.moderate {
 background-color: #dddd00;
 color: white;
 padding: 8px;
 }
 
-div.unhealthyx {
+.unhealthyx {
 background-color: #ff8000;
 color: white;
 padding: 8px;
 }
 
-div.unhealthy {
+.unhealthy {
 background-color: #ff0000;
 color: white;
 padding: 8px;
 }
 
-div.veryunhealthy {
+.veryunhealthy {
 background-color: #b700b7;
 color: white;
 padding: 8px;
 }
 
-div.hazardous {
+.hazardous {
 background-color: #8a008a;
 color: white;
 padding: 8px;
@@ -124,13 +126,13 @@ p {
   font-size: 26px;
 }
 
-div.text {
+.text {
   color: #ffffff;
   font-size: 18px;
   text-align: justify;
 
 }
-div.texth {
+.texth {
   color: #ffffff;
   font-size: 25px;
    text-align: center;
@@ -145,7 +147,7 @@ h1 {
   font-size:4vw;
 }
 
-div.title {
+.title {
   width: 100%;
   max-width: 800px;
   max-height: 80px;
@@ -156,11 +158,11 @@ div.title {
   padding-bottom: 40px;
   margin-top: 0px;
   text-align: center;
-  font-weight:bold;
+  font-weight: bold;
   color: white;
 }
 
-div.panel {
+.panel {
   border-radius: 15px 15px 15px 15px;
   width: 98%;
   text-align: left;
@@ -170,7 +172,7 @@ div.panel {
   max-width: 830px;
 }
 
-div.ppanel {
+.ppanel {
   border-radius: 15px 15px 15px 15px;
   width: 98%;
   margin:0 auto;
@@ -179,30 +181,30 @@ div.ppanel {
   max-width: 830px;
 }
 
-div.header {
+.header {
   padding: 5px;
   margin-top: 50px;
   text-align: center;
   border-radius: 15px 15px 0px 0px;
-  font-weight:bold;
+  font-weight: bold;
   background-color: #008080;
   color: white;
   text-shadow: 0 0 10px #000000;
   opacity: .8;
 }
 
-div.container {
+.container {
   padding-left: 	30px;
   padding-right: 	30px;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #00aaaa;
   color: #ffffff;
-  text-shadow: 0 0 6px #000000;
+  text-shadow: 0 0 5px #000000;
   opacity: 0.8;
 }
 
-div.tcontainer {
+.tcontainer {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 5px;
@@ -215,7 +217,7 @@ div.tcontainer {
   margin-top: 0px;
 }
 
-div.footer {
+.footer {
   padding: 15px;
   border-radius:  0px 0px 15px 15px;
   background-color: #000000;
@@ -226,7 +228,7 @@ div.footer {
   margin-bottom: 20px;
 }
 
-div.pfooter {
+.pfooter {
   padding: 30px;
   border-radius:  15px 15px 15px 15px;
   background-color: #000000;
@@ -243,25 +245,21 @@ div.pfooter {
   margin: auto;
 }
 
-
 a:link {
   color: white;
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: underline;
 }
 
 a:hover, a:active {
   text-decoration: bold;
   color: teal;
+  font-size: 18px;
 }
 
 
 @media screen and (max-width: 600px) {
 
-  div.title {
+  .title {
     font-size: 33px;
   }
+  
 }
