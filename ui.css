@@ -291,7 +291,8 @@ a:hover, a:active {
     background-color: #000000;
     color: white;
     height: 10px;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .applink {
