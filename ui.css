@@ -4,6 +4,7 @@
   width: 100%;
   background-color: #ddd;
   display: none;
+  opacity: 0.7;
 }
 
 #bar {
@@ -40,6 +41,7 @@ th {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 20px;
+  padding-right: 20px;
   border-color: #008080;
   text-align: left;
   background-color: #008080;
