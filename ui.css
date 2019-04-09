@@ -160,6 +160,12 @@ p {
    text-align: center;
    font-weight: bold;
 }
+.texth:hover {
+  color: #ffffff;
+  font-size: 28px;
+   text-align: center;
+   font-weight: bold;
+}
 
 h1 {
   color: #ececff;
@@ -251,7 +257,7 @@ h1 {
 }
 
 .pfooter {
-  padding: 30px;
+  padding: 30px 30px 30px 30px;
   border-radius:  15px 15px 15px 15px;
   background-color: #000000;
   color: #ffffff;
